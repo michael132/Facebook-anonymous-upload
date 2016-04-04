@@ -25,7 +25,6 @@ This application is based on Laravel 5.0 (a PHP framework) and free/open on Gith
 
 If you don't have your own server, the following instructions will teach you how to build your own Facebook Publisher on [OpenShift](https://www.openshift.com) (by using the *Free Plan*).
 
-*Note: if you face any problem in any of the steps you should report it at [github](https://github.com/kxgen/facebook-anonymous-publisher/issues/new)*
 
 #### Step 1: Create a Facebook page
 + [Click here to create a new Facebook page](https://www.facebook.com/pages/create/), select appropriate page type, fill in description and other relevant fields.
@@ -68,7 +67,7 @@ https://graph.facebook.com/oauth/access_token?
 
 + Fill in your `Public URL` where has two fields. The first one is a string for recognizing your application, the second is your namespace. For example, I choose **demo**-**anonykangxi**.rhcloud.com in this demo ☛ Next, copy an paste the following URL to the `Source Code` field:
 ```
-https://github.com/kxgen/facebook-anonymous-publisher
+https://github.com/michael132/Facebook-anonymous-upload
 ```
 
 + Then click `Create Application` ☛ `Will you be changing the code of this application?` click `Yes, help me get started`
